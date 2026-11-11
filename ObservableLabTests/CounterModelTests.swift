@@ -58,7 +58,7 @@ final class CounterModelTests: XCTestCase {
         } onChange: {
             changed.fulfill()
         }
-        model.increment()
+        model.count = 1
         wait(for: [changed], timeout: 1)
         XCTAssertEqual(model.status, "現在のカウントは 1 です")
     }
