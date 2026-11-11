@@ -5,7 +5,8 @@ import Observation
 final class CounterModel {
     var count = 0
     var name = "SwiftUI"
-    var step = 1
+    var step = 3
+    var target = 10
 
     // この値を変えても、それ自体では View の更新を通知しない。
     @ObservationIgnored var debugNote = "まだ変更していません"
@@ -18,4 +19,5 @@ final class CounterModel {
     func increment() { count += step }
     func decrement() { count -= step }
     func reset() { count = 0 }
+    func isTargetReached() -> Bool { return count >= target }
 }
