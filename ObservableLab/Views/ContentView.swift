@@ -5,6 +5,8 @@ struct ContentView: View {
         TabView {
             CounterLessonView()
                 .tabItem { Label("実験", systemImage: "slider.horizontal.3") }
+            CounterLessonViewCopy()
+                .tabItem { Label("実験（コピー）", systemImage: "slider.horizontal.3") }
             SettingsLessonView()
                 .tabItem { Label("共有設定", systemImage: "person.crop.circle") }
             LearningGuideView()

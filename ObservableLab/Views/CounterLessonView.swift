@@ -6,7 +6,7 @@ struct CounterLessonView: View {
 
     var body: some View {
         NavigationStack {
-            Form {
+            List {
                 Section("1. @Observable + @State") {
                     CounterReadout(model: model)
 

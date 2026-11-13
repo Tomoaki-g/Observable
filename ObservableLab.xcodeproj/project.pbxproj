@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1893634A30A6D68600ADA2F2 /* CounterLessonViewCopy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1893634930A6D68600ADA2F2 /* CounterLessonViewCopy.swift */; };
 		40B47AA9830D1850EBF816C0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29CA5E38B930F8E3197428E1 /* ContentView.swift */; };
 		4B06F588D5803868CB71C500 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2DD152E679C859318F69BE4F /* Assets.xcassets */; };
 		8BDC84208900FF1A2A5CAB86 /* CounterLessonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0782B9296AA2AFAB4D13D9C0 /* CounterLessonView.swift */; };
@@ -31,6 +32,7 @@
 /* Begin PBXFileReference section */
 		00D24643249ED740EA86F2D6 /* ObservableLabApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObservableLabApp.swift; sourceTree = "<group>"; };
 		0782B9296AA2AFAB4D13D9C0 /* CounterLessonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CounterLessonView.swift; sourceTree = "<group>"; };
+		1893634930A6D68600ADA2F2 /* CounterLessonViewCopy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CounterLessonViewCopy.swift; sourceTree = "<group>"; };
 		1E51FB9942CD4D37A7FBD939 /* ObservableLabTests.xctest */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.cfbundle; path = ObservableLabTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2360315B307616879EAC00AF /* CounterModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CounterModel.swift; sourceTree = "<group>"; };
 		29CA5E38B930F8E3197428E1 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -94,6 +96,7 @@
 			children = (
 				29CA5E38B930F8E3197428E1 /* ContentView.swift */,
 				0782B9296AA2AFAB4D13D9C0 /* CounterLessonView.swift */,
+				1893634930A6D68600ADA2F2 /* CounterLessonViewCopy.swift */,
 				54CAC861DA9BAAD478AD7ECE /* LearningGuideView.swift */,
 				B4ACD3399C092B801DAB768C /* SettingsLessonView.swift */,
 			);
@@ -200,6 +203,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1893634A30A6D68600ADA2F2 /* CounterLessonViewCopy.swift in Sources */,
 				AE8CE563E80BC61C8ADD172D /* AppSettings.swift in Sources */,
 				40B47AA9830D1850EBF816C0 /* ContentView.swift in Sources */,
 				8BDC84208900FF1A2A5CAB86 /* CounterLessonView.swift in Sources */,
